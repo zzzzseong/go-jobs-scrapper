@@ -1,12 +1,12 @@
 # Go Jobs Scraper
 
----
-
 > **This document was generated with the help of GitHub Copilot.**  
 > **This project was built as a practice exercise following a course from Nomad Coders.**
 
 This project is a web application that scrapes job listings from `saramin.co.kr` based on a search term provided by the user.
 The application is built using Go and the Echo web framework.
+
+<br>
 
 ## Features
 
@@ -14,10 +14,14 @@ The application is built using Go and the Echo web framework.
 - Saves the scraped job listings to a CSV file
 - Provides a simple web interface for users to input search terms
 
+<br>
+
 ## Prerequisites
 
 - Go 1.16 or later
 - Go modules enabled`
+
+<br>
 
 ## Installation
 
@@ -32,6 +36,8 @@ The application is built using Go and the Echo web framework.
    go get github.com/labstack/echo
     ```
 
+<br>
+
 ## Usage
 
 1. Run the application:
@@ -45,11 +51,15 @@ The application is built using Go and the Echo web framework.
 
 4. The application will scrape job listings and prompt you to download a CSV file with the results.
 
+<br>
+
 ## Project Structure
 
 - `main.go`: Entry point of the application.
 - `home.html`: HTML template for the web interface.
 - `scrapper/scrapper.go`: Contains the logic for scraping job listings from `saramin.co.kr`.
+
+<br>
 
 ## Reference
 
